@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.header{
+  background-color: yellow;
+  padding:8px;
+  margin:auto;
+  box-shadow: 5px 5px 5px #ddd;
+}
+.footer{
+  position: absolute;
+  bottom:0;
+ 
+}
+.note{
+  background-color: white;
+  padding:10px;
+  margin:20px;
+  border-radius: 10px;
+  width:260px;
 }
